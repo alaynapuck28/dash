@@ -83,6 +83,7 @@ function itEqualsThree(i) {
 }
 console.log(find(otherArr, itEqualsThree));
 
+/************Find Last***************/
 //return the last item in theArray
 function findLast(theArray) {
   return theArray[theArray.length - 1];
@@ -90,8 +91,8 @@ function findLast(theArray) {
 
 console.log(findLast(otherArr));
 
-//return the first element of the array
 /*************Head***************/
+//return the first element of the array
 function head(theArray) {
   return theArray[0];
 }
@@ -121,6 +122,7 @@ console.log(reverse(otherArr));
 //return the new array
 
 //************Tail **********/
+//start loop at 1 to exclude first item
 function tail(theArray) {
   let myNewArray = [];
   for (i = 1; i < theArray.length; i++) {
